@@ -3,11 +3,11 @@
 set -euo pipefail
 
 IFS= read -r password < passwd.txt
-IFS= read -r url < url.txt
+IFS= read -r url < meowurl.txt
 
 echo '############################'
 echo $'Password:\t'"${password}"
-echo $'SS URL:\t\t'"${url}"
+echo $'meow URL:\t\t'"${url}"
 echo 'Also QR code with server credentials is available in this REPL files.'
 echo '############################'
 
